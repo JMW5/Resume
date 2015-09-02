@@ -1,11 +1,23 @@
 body {
     margin: 0px;
-
+    background-color: black;
 }
+
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.anchor:hover {
+    text-decoration: none;
+}
+
+
 
 .header {
     height: 75px;
-    background: url(../images/header.png);
+    background: url(../images/bg-header.png);
+    background-size: cover;
     border-bottom: 1px solid black;
     width: 100%;
     position: relative;
@@ -13,30 +25,44 @@ body {
 
 #header-title {
     font-size: 32px;
-    color: grey;
+    color: white;
     padding: 15px;
     letter-spacing: 1rem;
-    font-family: 'Cinzel', serif;
+    font-family: 'La Belle Aurore', cursive;
     font-weight: 700;
     white-space: nowrap;
+
 }
 
 
 .main-content {
 
 
-    background-color: gray;
+    background: url(../images/bg.png);
+    background-size: cover;
     margin: 0px;
-    height: 1350px;
+    height: 1508px;
+
+    overflow: hidden;
+
 
 }
+
+.main-content h3 {
+
+    margin: 0px;
+    color: white;
+
+}
+
 
 .side-content {
 
     margin: 0px;
     text-align: center;
-    background-color: blue;
-    height: 1350px;
+    background-color: #2D3740;
+    height: 1508px;
+    overflow: hidden;
 
 
 }
@@ -81,6 +107,7 @@ body {
     display: block;
     overflow: hidden;
     white-space: nowrap;
+    color: white;
 
 }
 
@@ -119,6 +146,7 @@ body {
 
 .sub-headline {
     text-align: left;
+    color: white;
 }
 
 
@@ -129,11 +157,75 @@ body {
 
 .intro-text {
     padding-bottom: 20px;
+    color: white;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 .main-content-titles {
 
     font-size: 4rem;
+    color: white;
+    font-family: 'PT Serif', serif;
+
 
 }
+
+#panelbody {
+
+    box-shadow: 3px 3px 5px 6px;
+    background-color: #2D3740;
+    color: white;
+
+}
+
+#progress {
+
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#education-text ul li {
+
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#education-text ul p {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#progressbar {
+
+    background-image: none;
+    background-color: #617587;
+
+}
+
+#progressbar1 {
+
+    background-image: none;
+    background-color: #81818e;
+
+}
+
+
+ @media only screen and (max-width : 990px) {
+
+        .main-content {
+
+            height: auto;
+
+        }
+
+        .side-content {
+
+            padding-top: 50px;
+
+        }
+
+    }
