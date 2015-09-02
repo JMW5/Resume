@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+
+}
+
+.header {
+    height: 75px;
+    background: url(../images/header.png);
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: relative;
+}
+
+#header-title {
+    font-size: 32px;
+    color: grey;
+    padding: 15px;
+    letter-spacing: 1rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+.main-content {
+
+
+    background-color: gray;
+    margin: 0px;
+    height: 1350px;
+
+}
+
+.side-content {
+
+    margin: 0px;
+    text-align: center;
+    background-color: blue;
+    height: 1350px;
+
+
+}
+
+
+.me {
+
+    border-radius: 250px;
+    padding: 25px;
+    box-shadow:  7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+#panels {
+
+    margin-top: 10%;
+    text-align: left;
+
+}
+
+.social-icons {
+
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.social-icons li {
+
+    line-height: 4rem;
+    margin: 0px;
+    font-size: 17px;
+    white-space: nowrap;
+
+
+}
+
+
+.headlines {
+
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.headlines > span {
+    position: relative;
+    display: inline-block;
+}
+
+.headlines > span:before,
+.headlines > span:after {
+
+    content: "";
+    position: absolute;
+    width: 9999px;
+    height: 1px;
+    background: white;
+
+
+}
+
+.headlines > span:before {
+
+    right: 100%;
+    margin-right: 15px;
+
+}
+
+.headlines > span:after {
+
+    left: 100%;
+    margin-left: 15px;
+    margin-top: 13px;
+
+}
+
+
+.sub-headline {
+    text-align: left;
+}
+
+
+.icon-padding {
+    padding-right: 2%;
+    font-size: 12px;
+}
+
+.intro-text {
+    padding-bottom: 20px;
+}
+
+
+.main-content-titles {
+
+    font-size: 4rem;
+
+}
