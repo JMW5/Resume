@@ -224,7 +224,17 @@ body {
 
         .side-content {
 
-            padding-top: 50px;
+            padding-top: 20px;
+
+        }
+
+        .me {
+            display: none;
+        }
+
+        #panelbody {
+
+            margin-bottom: 10px;
 
         }
 
